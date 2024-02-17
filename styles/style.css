@@ -20,6 +20,8 @@
     max-width: 1568px;
     margin: 0 auto;
 }
+
+
 /* ---------- animations ---------- */
 
 .btn_animation{
@@ -223,7 +225,9 @@
     right: 0;
 
 }
-
+/* .header__nav_active body{
+    position: fixed;
+} */
 /* -----------                 SECTOR MAIN---------- */
 .sector__main {
     background-image: url("../assets/main_sector_bg.png");
@@ -556,13 +560,13 @@ font-weight: 700;
     border: none;
     border-bottom: 1px solid rgba(28, 46, 61, 0.452);
 
-    text-transform: uppercase;
-
+    
     outline: none;
-
+    
 }
 .sing_up_form label{
     padding: 32px 0px 0px 0px;
+    text-transform: uppercase;
 }
 
 /* -----------               SECTOR INSPIRATIONS ----------- */

@@ -28,7 +28,7 @@ const footer__data = {
 const inspirations__data = [
     {
         id:1,
-        backgound: "../assets/inspirations/backgrounds/grid1.svg",
+        backgound: "/assets/inspirations/backgrounds/grid1.svg",
         title: "A Guide To Rocky Mountain Vacations",
 
         category: "DESTINATIONS",

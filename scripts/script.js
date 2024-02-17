@@ -158,7 +158,7 @@ const inspirations__grid = document.querySelector(".inspirations__grid");
 inspirations__data.forEach((el,index) =>{
     const inspirations_grid_element = document.createElement("div");
     inspirations_grid_element.classList.add(`inspirations__grid${index+1}`);
-    inspirations_grid_element.style.backgroundImage = `url(${el.backgound})`;
+    // inspirations_grid_element.style.backgroundImage = `url(${el.backgound})`;
     
     const inspirations_grid_title = document.createElement("h2");
     inspirations_grid_title.textContent = el.title;

@@ -633,7 +633,7 @@ cursor: pointer;
     grid-column: 5 / 7;
     margin: 0px 0px 16px 16px ;
 
-
+    background: url(../assets/inspirations/backgrounds/grid2.svg);
 
 }
 .inspirations__grid3 {

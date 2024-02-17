@@ -105,7 +105,7 @@ const inspirations__data = [
         backgound: "../assets/inspirations/backgrounds/grid7.svg",
         title: "A Guide To Rocky Mountain Vacations",
         category: false,
-        avatar: ['/Mother-Earth/assets/inspirations/avatars/ava14.svg','/Mother-Earth/assets/inspirations/avatars/ava15.svg','/Mother-Earth/assets/inspirations/avatars/ava16.svg',],
+        avatar: ['/assets/inspirations/avatars/ava14.svg','rth/assets/inspirations/avatars/ava15.svg','/assets/inspirations/avatars/ava16.svg',],
         // якщо не false то play або button
         button_type: false,
         // тут або ім'я або посилання на картинку
@@ -196,7 +196,7 @@ inspirations__data.forEach((el,index) =>{
 
     el.avatar.forEach((el,index) =>{
         const avatar_img = document.createElement("img");
-        avatar_img.src= el;
+        avatar_img.src= `/Mother-Earth${el}`;
         avatar_img.alt = 'avatar';
         avatar_img.classList.add('insp_img', `insp_img${index}`);
 

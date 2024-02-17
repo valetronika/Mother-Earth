@@ -175,7 +175,7 @@ inspirations__data.forEach((el,index) =>{
         inspirations_btn.classList.add('btn_animation');
 
         const inspirations_play = document.createElement('img');
-        inspirations_play.src = el.button;
+        inspirations_play.src = `/Mother-Earth${el.button}`;
         inspirations_play.alt = 'button play';
 
         inspirations_btn.append(inspirations_play);

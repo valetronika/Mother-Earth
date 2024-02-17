@@ -32,7 +32,7 @@ const inspirations__data = [
         title: "A Guide To Rocky Mountain Vacations",
 
         category: "DESTINATIONS",
-        avatar: ['../assets/inspirations/avatars/ava1.svg','../assets/inspirations/avatars/ava2.svg','../assets/inspirations/avatars/ava3.svg',],
+        avatar: ['/assets/inspirations/avatars/ava1.svg','/assets/inspirations/avatars/ava2.svg','/assets/inspirations/avatars/ava3.svg',],
         // якщо не false то play або button
         button_type: 'button',
         // тут або ім'я або посилання на картинку
@@ -45,11 +45,11 @@ const inspirations__data = [
         title: "Traveling To Barcelona",
 
         category: "DESTINATIONS",
-        avatar: ['../assets/inspirations/avatars/ava4.svg','../assets/inspirations/avatars/ava5.svg',],
+        avatar: ['/assets/inspirations/avatars/ava4.svg','/assets/inspirations/avatars/ava5.svg',],
         // якщо не false то play або button
         button_type: 'play',
         // тут або ім'я або посилання на картинку
-        button: "../assets/inspirations/play.svg",
+        button: "/assets/inspirations/play.svg",
     },
     {
         id:3,
@@ -57,7 +57,7 @@ const inspirations__data = [
         backgound: "../assets/inspirations/backgrounds/grid3.svg",
         title: "Party Jokes Startling But Unnecessary",
         category: "DESTINATIONS",
-        avatar: ['../assets/inspirations/avatars/ava6.svg','../assets/inspirations/avatars/ava7.svg'],
+        avatar: ['/assets/inspirations/avatars/ava6.svg','/assets/inspirations/avatars/ava7.svg'],
         // якщо не false то play або button
         button_type: false,
         // тут або ім'я або посилання на картинку
@@ -69,7 +69,7 @@ const inspirations__data = [
         backgound: "../assets/inspirations/backgrounds/grid4.svg",
         title: "Maui By Air The Best Way Around The Island",
         category: false,
-        avatar: ['../assets/inspirations/avatars/ava8.svg','../assets/inspirations/avatars/ava9.svg'],
+        avatar: ['/assets/inspirations/avatars/ava8.svg','/assets/inspirations/avatars/ava9.svg'],
         // якщо не false то play або button
         button_type: false,
         // тут або ім'я або посилання на картинку
@@ -81,7 +81,7 @@ const inspirations__data = [
         backgound: "../assets/inspirations/backgrounds/grid5.svg",
         title: "Andre Gide Man cannot discover new oceans unless he has the courage to lose sight of the shore.",
         category: "Andre Gide",
-        avatar: ['../assets/inspirations/avatars/ava10.svg','../assets/inspirations/avatars/ava11.svg'],
+        avatar: ['/assets/inspirations/avatars/ava10.svg','/assets/inspirations/avatars/ava11.svg'],
         // якщо не false то play або button
         button_type: false,
         // тут або ім'я або посилання на картинку
@@ -93,11 +93,11 @@ const inspirations__data = [
         backgound: "../assets/inspirations/backgrounds/grid6.svg",
         title: "Traveling To Barcelona",
         category: "DESTINATIONS",
-        avatar: ['../assets/inspirations/avatars/ava12.svg','../assets/inspirations/avatars/ava13.svg'],
+        avatar: ['/assets/inspirations/avatars/ava12.svg','/assets/inspirations/avatars/ava13.svg'],
         // якщо не false то play або button
         button_type: 'play',
         // тут або ім'я або посилання на картинку
-        button: "../assets/inspirations/play.svg",
+        button: "/assets/inspirations/play.svg",
     },
     {
         id:7,
@@ -105,7 +105,7 @@ const inspirations__data = [
         backgound: "../assets/inspirations/backgrounds/grid7.svg",
         title: "A Guide To Rocky Mountain Vacations",
         category: false,
-        avatar: ['../assets/inspirations/avatars/ava14.svg','../assets/inspirations/avatars/ava15.svg','../assets/inspirations/avatars/ava16.svg',],
+        avatar: ['/assets/inspirations/avatars/ava14.svg','/assets/inspirations/avatars/ava15.svg','/assets/inspirations/avatars/ava16.svg',],
         // якщо не false то play або button
         button_type: false,
         // тут або ім'я або посилання на картинку

@@ -105,7 +105,7 @@ const inspirations__data = [
         backgound: "../assets/inspirations/backgrounds/grid7.svg",
         title: "A Guide To Rocky Mountain Vacations",
         category: false,
-        avatar: ['/assets/inspirations/avatars/ava14.svg','rth/assets/inspirations/avatars/ava15.svg','/assets/inspirations/avatars/ava16.svg',],
+        avatar: ['/assets/inspirations/avatars/ava14.svg','/assets/inspirations/avatars/ava15.svg','/assets/inspirations/avatars/ava16.svg',],
         // якщо не false то play або button
         button_type: false,
         // тут або ім'я або посилання на картинку

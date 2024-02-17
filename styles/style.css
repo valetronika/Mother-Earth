@@ -1,5 +1,3 @@
-
-
 * {
     margin: 0;
     padding: 0;
@@ -11,45 +9,45 @@
 .wrapper {
     margin: 0 auto;
     max-width: 1920px;
+
+    /* border: 3px solid red; */
 }
 .wrapper__content {
     max-width: 1410px;
     margin: 0 auto;
+    /* border: 3px solid rgb(123, 255, 0); */
 }
-.wrapper__inspirations{
+.wrapper__inspirations {
     max-width: 1568px;
     margin: 0 auto;
-}
 
+    /* border: 3px solid rgb(0, 17, 255); */
+}
 
 /* ---------- animations ---------- */
 
-.btn_animation{
+.btn_animation {
     transform: scale(1);
     opacity: 1;
     transition: all 0.1s ease;
 }
-.animation__click{
+.animation__click {
     transform: scale(0.95);
     opacity: 0.9;
     transition: all 0.1s ease;
 }
 /* -----------                    BUTTONS--------- */
-.color_transparent{
+.color_transparent {
     background: #1c2e3d3f;
     color: #fff;
-
-
 }
-.color_orange{
+.color_orange {
     background-color: #e8594e;
     color: #fff;
-
 }
-.color_green{
+.color_green {
     background-color: #73afba;
     color: #fff;
-
 }
 .button__mini {
     border-radius: 24px;
@@ -75,12 +73,10 @@
     letter-spacing: 2px;
 
     cursor: pointer;
-    transition: all 0.5s ease,
-
+    transition: all 0.5s ease;
 }
 .button__main {
     height: 80px;
-
 
     width: 274px;
 
@@ -97,7 +93,7 @@
     letter-spacing: 2.182px;
     text-transform: uppercase;
 }
-.sing_up_button{
+.sing_up_button {
     width: 500px;
     height: 96px;
 
@@ -125,7 +121,6 @@
 .header__icons {
     position: relative;
 }
-/* це випралення картинки через недолік макету */
 .header__icon_position {
     position: absolute;
     top: 0;
@@ -135,7 +130,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 53px 0;
+    padding: 53px 10px;
 
     color: #ffffff;
 
@@ -154,15 +149,12 @@
     cursor: pointer;
 
     z-index: 2;
-
 }
 .header__burger span {
     display: block;
     transition: all 1s ease;
 
     padding: 40px 10px 10px 10px;
-
-
 }
 .header__burger span::before,
 .header__burger span::after {
@@ -175,30 +167,27 @@
     position: absolute;
 
     transition: all 0.5s ease;
-
 }
 .header__burger_inactive span::before {
     top: 0;
     left: 0;
-
 }
 .header__burger_active span::before {
     top: 3px;
     left: 0;
-    transform: translate3d(0,0,0) rotate(45deg) scale(1);
+    transform: translate3d(0, 0, 0) rotate(45deg) scale(1);
 }
 .header__burger_active span::after {
     bottom: 4px;
     left: 0;
-    transform: translate3d(0,0,0) rotate(-45deg) scale(1);
+    transform: translate3d(0, 0, 0) rotate(-45deg) scale(1);
 }
 .header__burger_inactive span::after {
     bottom: 0;
     left: 0;
-
 }
 /*                          NAV */
-.header__nav{
+.header__nav {
     position: absolute;
     padding: 140px 200px 40% 200px;
     margin: 0px -50px 0px 0px;
@@ -207,7 +196,7 @@
 
     transition: all 1s ease;
 }
-.header__nav li{
+.header__nav li {
     list-style-type: none;
     font-size: 3rem;
     font-weight: 700;
@@ -216,18 +205,15 @@
     cursor: pointer;
     line-height: 2;
 }
-.header__nav_inactive{
+.header__nav_inactive {
     top: -1500px;
     right: 0;
 }
-.header__nav_active{
+.header__nav_active {
     top: 0px;
     right: 0;
-
 }
-/* .header__nav_active body{
-    position: fixed;
-} */
+
 /* -----------                 SECTOR MAIN---------- */
 .sector__main {
     background-image: url("../assets/main_sector_bg.png");
@@ -259,7 +245,6 @@
     font-size: 14px;
     font-weight: 400;
 }
-
 
 /*                           grid block */
 .sector__main_grid {
@@ -339,20 +324,19 @@
 .sector_lesson {
     padding: 150px 0px 150px 0px;
 }
-.sector_lesson h2{
+.sector_lesson h2 {
     display: block;
     max-width: 767px;
     font-size: 64px;
     margin: 0px 0px 100px 0px;
 }
-.sector_lesson_grid{
+.sector_lesson_grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 33px;
-    
 }
 
-.lesson_hover{
+.lesson_hover {
     background-color: #73afbae7;
     width: 100%;
     height: 100%;
@@ -368,11 +352,10 @@
     cursor: pointer;
 }
 .lesson_item {
-
     width: 367px;
     height: 551px;
 }
-.lesson_item:hover > .lesson_hover{
+.lesson_item:hover > .lesson_hover {
     display: flex;
 }
 .sector_lesson_item1 {
@@ -380,15 +363,12 @@
 }
 .sector_lesson_item2 {
     background: url(../assets/lesson/bg2.svg);
-
 }
 .sector_lesson_item3 {
     background: url(../assets/lesson/bg3.svg);
-
 }
 .sector_lesson_item4 {
     background: url(../assets/lesson/bg4.svg);
-
 }
 /*  ---------------          SECTOR Featured STORIES  ----------------  */
 
@@ -409,15 +389,12 @@
     justify-content: end;
     padding: 0px 0px 106px 176px;
 }
-.featured_stories__main h2{
+.featured_stories__main h2 {
     font-size: 48px;
 }
-.featured_stories__main p{
+.featured_stories__main p {
     font-style: 14px;
 }
-
-
-
 
 .featured_stories__content {
     width: 678px;
@@ -425,99 +402,94 @@
     display: flex;
     flex-direction: column;
     gap: 96px;
-    
+
     color: #ffffff;
     padding: 127px 177px 0px 133px;
 }
-.featured_stories__content h3{
-    font-size: 64px;    
+.featured_stories__content h3 {
+    font-size: 64px;
 }
-.featured_stories__content_grid  {
+.featured_stories__content_grid {
     display: flex;
     flex-direction: column;
     gap: 32px;
 }
-.featured_stories__content_grid h4{
+.featured_stories__content_grid h4 {
     font-size: 18px;
     margin: 0px 0px 8px 0px;
 }
-.featured_stories__content_grid p{
+.featured_stories__content_grid p {
     font-size: 11px;
     color: rgba(255, 255, 255, 0.5);
 }
-.featured_stories__content_grid >div{
+.featured_stories__content_grid > div {
     display: flex;
     gap: 32px;
 }
-.featured_stories__content_grid  > span{
+.featured_stories__content_grid > span {
     display: block;
     border-bottom: 1px solid rgba(227, 227, 227, 0.103);
     width: 100%;
     height: 1px;
-
 }
-
 
 /*  ---------------          SECTOR Featured Videos  ----------------  */
 .sector__featured {
-color: #000000;
-text-align: center;
+    color: #000000;
+    text-align: center;
 }
-.sector__featured h2{
+.sector__featured h2 {
     font-size: 64px;
     margin: 150px 0px 0px 0px;
-    }
-.sector__featured p{
+}
+.sector__featured p {
     max-width: 630px;
     margin: 25px auto 100px;
     color: rgba(120, 134, 146, 0.562);
-    
-    
 }
-.sector__featured_grid{
+.sector__featured_grid {
     display: flex;
     align-items: center;
     gap: 32px;
     overflow: hidden;
 }
-.sector__featured_img1{
-    background: url('../assets/featured/see.svg');
+.sector__featured_img1 {
+    background: url("../assets/featured/see.svg");
     width: 410px;
     height: 550px;
 }
-.sector__featured_img2{
-    background: url('../assets/featured/build.svg');
+.sector__featured_img2 {
+    background: url("../assets/featured/build.svg");
     width: 1035px;
     height: 670px;
 
     position: relative;
-
 }
-.sector__featured_img2 img{
+.sector__featured_img2 img {
     position: absolute;
     top: 50px;
     left: 50px;
 
     cursor: pointer;
 }
-.sector__featured_img3{
-    background: url('../assets/featured/desert.svg');
+.sector__featured_img3 {
+    background: url("../assets/featured/desert.svg");
     width: 410px;
     height: 550px;
 }
 /*  ---------------          SECTOR SING UP  ----------------  */
 
-.sing_up_text{
+.sing_up_text {
     color: #ffffff;
     padding: 480px 0px 178px 135px;
 
     max-width: 400px;
 }
-.sing_up_text h2{
-font-size: 48px;
-font-weight: 700;
+.sing_up_text h2 {
+    font-size: 48px;
+    font-weight: 700;
 }
-.sing_up_text p{
+.sing_up_text p {
     font-size: 16px;
     font-weight: 300;
     padding: 40px 0px 0px 0px;
@@ -526,16 +498,15 @@ font-weight: 700;
 }
 /* form sing up */
 
-
-.sing_up{
-    background: url('../assets/singup.svg');
+.sing_up {
+    background: url("../assets/singup.svg");
     background-repeat: no-repeat;
     background-position: center;
     height: 1052px;
 
     position: relative;
 }
-.sing_up_div{
+.sing_up_div {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -548,23 +519,21 @@ font-weight: 700;
     bottom: 31px;
 
     background: #ffffff;
-    border-radius:8px 8px 0 0px;
+    border-radius: 8px 8px 0 0px;
 }
-.sing_up_form{
+.sing_up_form {
     display: flex;
     flex-direction: column;
 
     padding: 76px 72px 76px 72px;
 }
-.sing_up_form input{
+.sing_up_form input {
     border: none;
     border-bottom: 1px solid rgba(28, 46, 61, 0.452);
 
-    
     outline: none;
-    
 }
-.sing_up_form label{
+.sing_up_form label {
     padding: 32px 0px 0px 0px;
     text-transform: uppercase;
 }
@@ -579,13 +548,11 @@ font-weight: 700;
 
     margin: 150px 0px 96px 0px;
 }
-.inspirations__text h2{
-
+.inspirations__text h2 {
     font-weight: 700;
     font-size: 64px;
-
 }
-.inspirations__text p{
+.inspirations__text p {
     font-style: 24px;
     font-weight: 300;
 }
@@ -594,7 +561,6 @@ font-weight: 700;
     grid-template-columns: repeat(6, 250px);
     grid-template-rows: repeat(7, 250px);
     justify-content: center;
-
 }
 .inspirations__grid > div {
     border-radius: 15px;
@@ -611,24 +577,20 @@ font-weight: 700;
     color: #fff;
 
     padding: 40px;
-
 }
-.inspirations__grid > div > .button__play{
-position: absolute;
-top: 40px;
-left: 40px;
-cursor: pointer;
+.inspirations__grid > div > .button__play {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    cursor: pointer;
 }
 .inspirations__grid1 {
-
-
     grid-row: 1 / 3;
     grid-column: 1 / 5;
     margin: 0px 16px 16px 0px;
     background: url(../assets/inspirations/backgrounds/grid1.svg);
-
 }
-.inspirations__grid1 .button__mini{
+.inspirations__grid1 .button__mini {
     position: absolute;
     top: 40px;
     right: 40px;
@@ -636,12 +598,11 @@ cursor: pointer;
     text-transform: uppercase;
 }
 .inspirations__grid2 {
-    grid-row: 1 / 3 ;
+    grid-row: 1 / 3;
     grid-column: 5 / 7;
-    margin: 0px 0px 16px 16px ;
+    margin: 0px 0px 16px 16px;
 
     background: url(../assets/inspirations/backgrounds/grid2.svg);
-
 }
 .inspirations__grid3 {
     grid-row: 3 / 6;
@@ -649,66 +610,60 @@ cursor: pointer;
     margin: 16px 16px 16px 0px;
 
     background: url(../assets/inspirations/backgrounds/grid3.svg);
-
 }
 .inspirations__grid4 {
     grid-row: 3 / 6;
-    grid-column: 3 / 5 ;
+    grid-column: 3 / 5;
     margin: 16px;
 
     background: url(../assets/inspirations/backgrounds/grid4.svg);
-
 }
 .inspirations__grid5 {
-    grid-row: 3 / 6 ;
-    grid-column: 5 / 7 ;
+    grid-row: 3 / 6;
+    grid-column: 5 / 7;
     margin: 16px 0px 16px 16px;
 
     align-items: center;
 
     background: url(../assets/inspirations/backgrounds/grid5.svg);
-
 }
-.inspirations__grid5 h2{
-    font-family: 'Courier New', Courier, monospace;
+.inspirations__grid5 h2 {
+    font-family: "Courier New", Courier, monospace;
     font-weight: 400;
     max-width: 340px;
     margin: 0px 0px 160px 0px;
 }
 .inspirations__grid6 {
     grid-row: 6 / 9;
-    grid-column: 1 / 3 ;
+    grid-column: 1 / 3;
     margin: 16px 16px 0px 0px;
 
     background: url(../assets/inspirations/backgrounds/grid6.svg);
-
 }
 .inspirations__grid7 {
-    grid-row:  6 / 9;
+    grid-row: 6 / 9;
     grid-column: 3 / 7;
     margin: 16px 0px 0px 16px;
 
     background: url(../assets/inspirations/backgrounds/grid7.svg);
-
 }
-.insp_container{
+.insp_container {
     display: flex;
     flex-direction: row;
     position: relative;
     gap: 15px;
 
     width: 142px;
-    margin: 20px 0 0 ;
+    margin: 20px 0 0;
 }
-.insp_img{
+.insp_img {
     border: 7px solid rgb(255, 255, 255);
     border-radius: 50%;
 }
 
-.insp_img1{
+.insp_img1 {
     position: absolute;
     left: 25%;
-
 }
 /* -----------                FOOTER---------- */
 
@@ -736,7 +691,7 @@ cursor: pointer;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
-    line-height: 29px; 
+    line-height: 29px;
 
     cursor: pointer;
 }
@@ -766,7 +721,7 @@ cursor: pointer;
     height: 35px;
     width: 100%;
 }
-.footer__input input:focus{
+.footer__input input:focus {
     outline: none;
 }
 .footer__linie {
@@ -788,4 +743,176 @@ cursor: pointer;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+
+/*       -------------------------------------------- MEDIA ----------------------------------------------------- */
+/* MAX 1600 */
+
+@media (max-width: 1600px) {
+    /* -----------                    HEADER---------- */
+
+    .header__burger {
+        margin: 0px 40px 0px 0px;
+    }
+    .header__nav {
+        margin: 0px 00px 0px 0px;
+    }
+    /* -----------                 SECTOR MAIN---------- */
+    .sector__main {
+        padding: 50px 50px 50px 50px;
+    }
+    /* ----------                 SECTOR EASY LESSON ---------- */
+    .sector_lesson h2 {
+        margin: 0 auto 100px;
+    }
+    .sector_lesson_grid {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        /* grid-template-columns: repeat(1, 1fr); */
+        gap: 33px;
+    }
+
+    /* -----------               SECTOR INSPIRATIONS ----------- */
+
+    .inspirations__grid {
+        display: grid;
+        grid-template-columns: repeat(6, 200px);
+        grid-template-rows: repeat(7, 200px);
+        justify-content: center;
+    }
+    /* -----------                FOOTER---------- */
+    .footer__up {
+        padding: 124px 40px 120px 40px;
+    }
+    .footer__down {
+        padding: 32px 40px 32px 40px;
+    }
+}
+
+/* MAX 1200 */
+
+@media (max-width: 1200px) {
+    /* -----------               SECTOR INSPIRATIONS ----------- */
+
+    .inspirations__grid {
+        grid-template-columns: repeat(6, 150px);
+        grid-template-rows: repeat(7, 150px);
+    }
+    .inspirations__grid5 h2 {
+        margin: 0px 0px 60px 0px;
+    }
+
+    /*  ---------------          SECTOR Featured STORIES  ----------------  */
+
+    .featured_stories {
+        flex-direction: column;
+    }
+
+    .featured_stories__main {
+        justify-content: center;
+        padding: 100px 100px 106px 176px;
+    }
+
+    .featured_stories__content {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 50px 50px 50px 050px;
+    }
+
+    .featured_stories__content h3 {
+        font-size: 3rem;
+    }
+    .featured_stories__content_grid {
+        flex-direction: row;
+        gap: 15px;
+    }
+
+    .featured_stories__content_grid > div {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+    .featured_stories__content_grid img {
+        width: 55px;
+    }
+    .featured_stories__content_grid > span {
+        display: none;
+    }
+}
+
+/* MAX 1070 */
+@media (max-width: 1070px) {
+    /* -----------                 SECTOR MAIN---------- */
+
+    .sector__main_text {
+        max-width: 80%;
+
+        padding: 70px 0 0 0;
+    }
+    /*  ---------------          SECTOR SING UP  ----------------  */
+
+    .sing_up_text {
+        padding: 0px;
+    }
+    .sing_up {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .sing_up_div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        position: relative;
+
+        right: 0;
+        top: 0;
+
+        border-radius: 8px 8px 8px 8px;
+    }
+
+    /* -----------               SECTOR INSPIRATIONS ----------- */
+
+    .inspirations__grid div {
+        margin: 0;
+        border-radius: 0;
+    }
+}
+
+/* MAX 950 */
+@media (max-width: 950px) {
+    /* -----------                 SECTOR MAIN---------- */
+    .sector__main {
+        height: 100%;
+    }
+    /*                           grid block */
+    .sector__main_grid {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .sector__main_grid_input {
+        height: 100px;
+
+        padding: 0 50px;
+    }
+    /* ----------                 SECTOR EASY LESSON ---------- */
+    .sector_lesson h2 {
+
+        font-size: 3rem;
+        margin: 0px 40px 100px 40px;
+    }
+    /* -----------               SECTOR INSPIRATIONS ----------- */
+
+    .inspirations__grid {
+        display: flex;
+        flex-direction: column;
+    }
 }
